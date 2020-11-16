@@ -11,7 +11,8 @@ import {
   ProductContainer,
 } from "./StyledComponents";
 
-function Home({ onClick }) {
+
+function Home({ onClick,products }) {
   return (
     <div>
       <BgWrapper>
@@ -22,12 +23,12 @@ function Home({ onClick }) {
       </BgWrapper>
       <ProductTitle>Best Sellers</ProductTitle>
       <ProductContainer>
-        {[1, 2, 3, 4, 5, 6].map((item) => {
+        {products.map((product) => {
           return (
-            <Link key={item} to={`/detail/${item}`}>
+            <Link key={product.id} to={`/detail/${product.id}`}>
               <Product
-                img={`https://www.unsplash.it/350/200/?${item}`}
-                onClick={(e) => onClick(e, item)}
+                img={product.image_url}
+                onClick={(e) => onClick(e, product.id)}
               />
             </Link>
           );

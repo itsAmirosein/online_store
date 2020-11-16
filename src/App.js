@@ -5,27 +5,46 @@ import Shop from "./components/Shop";
 import Detail from "./components/Detail";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { useState } from "react";
-
+import { PRODUCTS } from "./components/Data";
+let count = 1;
 function App() {
-  const [value, setValue] = useState(0);
+  const [currentShop, setCurrentShop] = useState([]);
+  const [len, setLen] = useState(0);
 
-  const handleShoppingBadge = (e, value) => {
+  const handleShopping = (e, id ) => {
     e.preventDefault();
-    console.log(value);
-    setValue((prevValue) => prevValue + 1);
+
+    const FoundedData = PRODUCTS.find((product) => product.id === id);
+
+    const y = currentShop.filter((item) => item.id === id);
+    if (y.length === 0) {
+      currentShop.push(FoundedData);
+    } else {
+      count++;
+      
+    }
+    setCurrentShop(currentShop);
+    console.log(currentShop);
+    console.log(y);
+    setLen(currentShop.length);
   };
   return (
     <Router>
-      <Header value={value} />
+      <Header
+        productCount={len}
+        productView={currentShop}
+        count={count}
+      
+      />
       <Switch>
         <Route path="/" exact>
-          <Home onClick={handleShoppingBadge} />
+          <Home onClick={handleShopping} products={PRODUCTS} />
         </Route>
         <Route path="/shop">
           <Shop />
         </Route>
         <Route path="/detail/:id?">
-          <Detail />
+          <Detail products={PRODUCTS} onClick={handleShopping} />
         </Route>
       </Switch>
     </Router>
