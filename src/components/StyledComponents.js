@@ -56,6 +56,7 @@ export const ShowNowButton = styled.button`
   background-color: orange;
   color: #222;
   font-size: 1.3rem;
+  cursor:pointer;
 `;
 export const ProductTitle = styled.h1`
   text-align: center;
@@ -64,7 +65,7 @@ export const ProductTitle = styled.h1`
 `;
 
 export const ProductContainer = styled.div`
-  width: 1400px;
+  width: 1600px;
   max-width: 95%;
   position: relative;
   height: auto;
@@ -178,6 +179,9 @@ export const ProductViewWrapper = styled.div`
   display: flex;
   transition: all 0.2s ease;
   align-items: center;
+  a{
+    height:100%;
+  }
   img {
     cursor: pointer;
   }
@@ -287,7 +291,7 @@ export const DetailImg = styled.img`
   flex-grow: 1;
   width: fit-content;
   object-fit: cover;
-  height: 200px;
+  height: 480px;
 `;
 
 export const RelatedProducts = styled.div`
@@ -299,7 +303,8 @@ export const RelatedProducts = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+
   border: 1px solid #ccc;
 `;
 export const RelatedTitle = styled.h2`
@@ -307,5 +312,19 @@ export const RelatedTitle = styled.h2`
   position: relative;
   max-width: 95%;
   margin: 10px auto 20px;
-  text-align:center;
+  text-align: center;
 `;
+
+export const DiscountPrice = styled.span`
+  color: #aaa;
+  text-decoration:line-through;
+`;
+
+export const SeeMore = styled.span`
+position:absolute;
+right:40px;
+top: -15px;
+font-size:1.3rem;
+cursor:pointer;
+text-decoration:none;
+`

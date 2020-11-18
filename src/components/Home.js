@@ -9,25 +9,32 @@ import {
   ShowNowButton,
   ProductTitle,
   ProductContainer,
+  SeeMore,
 } from "./StyledComponents";
 
-
-function Home({ onClick,products }) {
+function Home({ onClick, products }) {
+  const bestSellers = products.filter(
+    (bestSellerProduct) => bestSellerProduct.special
+  );
   return (
     <div>
       <BgWrapper>
         <ShopNowWrapper>
           <ShowNowText>Best Store In World</ShowNowText>
-          <ShowNowButton>Shop now</ShowNowButton>
+          <Link to='/shop'>
+            <ShowNowButton>Shop now</ShowNowButton>
+          </Link>
         </ShopNowWrapper>
       </BgWrapper>
-      <ProductTitle>Best Sellers</ProductTitle>
+      <ProductTitle>Best Sellers - 50% discount</ProductTitle>
+
       <ProductContainer>
-        {products.map((product) => {
+        <SeeMore>See all</SeeMore>
+        {bestSellers.splice(0, 8).map((product) => {
           return (
             <Link key={product.id} to={`/detail/${product.id}`}>
               <Product
-                img={product.image_url}
+                img={product.imageUrl}
                 onClick={(e) => onClick(e, product.id)}
               />
             </Link>

@@ -5,13 +5,13 @@ import Shop from "./components/Shop";
 import Detail from "./components/Detail";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { useState } from "react";
-import { PRODUCTS } from "./components/Data";
+import { PRODUCTS } from "./components/productsData";
 let count = 1;
 function App() {
   const [currentShop, setCurrentShop] = useState([]);
   const [len, setLen] = useState(0);
 
-  const handleShopping = (e, id ) => {
+  const handleShopping = (e, id) => {
     e.preventDefault();
 
     const FoundedData = PRODUCTS.find((product) => product.id === id);
@@ -21,7 +21,6 @@ function App() {
       currentShop.push(FoundedData);
     } else {
       count++;
-      
     }
     setCurrentShop(currentShop);
     console.log(currentShop);
@@ -30,12 +29,7 @@ function App() {
   };
   return (
     <Router>
-      <Header
-        productCount={len}
-        productView={currentShop}
-        count={count}
-      
-      />
+      <Header productCount={len} productView={currentShop} count={count} />
       <Switch>
         <Route path="/" exact>
           <Home onClick={handleShopping} products={PRODUCTS} />

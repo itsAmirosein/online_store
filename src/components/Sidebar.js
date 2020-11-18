@@ -5,7 +5,7 @@ import ProductView from "./ProductView";
 
 function Sidebar({ onClick, showSidebar, productView, count }) {
   const [products, setProducts] = useState(productView);
-  const [total, setTotal] = useState(0);
+  
   useEffect(() => {
     setProducts(productView);
   }, [productView]);
@@ -34,15 +34,18 @@ function Sidebar({ onClick, showSidebar, productView, count }) {
             return (
               <ProductView
                 key={product.id}
-                img={product.image_url}
+                id={product.id}
+                img={product.imageUrl}
+                special={product.special}
                 title={product.title}
                 price={product.price}
                 count={count}
+                closeSidebar={onClick}
               />
             );
           })
         : null}
-      <div>Total : {total}</div>
+      {/* <div>Total : {total}</div> */}
     </SidebarWrapper>
   );
 }
