@@ -27,7 +27,7 @@ function ProductView({ title, price, img, count, special, id, closeSidebar, hade
         {!special && <span> {price}$</span>}
         {special && (
           <span>
-            <DiscountPrice> {count * price}$</DiscountPrice> / {count * discountPrice}$
+            <DiscountPrice> {price}$</DiscountPrice> / {discountPrice}$
           </span>
         )}
       </InfoWrapper>

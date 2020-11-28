@@ -44,13 +44,14 @@ function App() {
 
   const hadelCounter = (changeValue, itemId) => {
     const item = { ...currentShop.find(item => item.id === itemId) }
-    if (changeValue === 'remove') {
-      const copyCurrentShop = [...currentShop]
-      const itemIndex = currentShop.findIndex(item => item.id === itemId)
-      --item.counter
-      copyCurrentShop[itemIndex] = item
-      setCurrentShop(copyCurrentShop)
-
+    if (changeValue === 'remove'&&item.counter > 1) {
+    
+        const copyCurrentShop = [...currentShop]
+        const itemIndex = currentShop.findIndex(item => item.id === itemId)
+        --item.counter
+        copyCurrentShop[itemIndex] = item
+        setCurrentShop(copyCurrentShop)
+      
     }
     else if (changeValue === 'add') {
       const copyCurrentShop = [...currentShop]
@@ -61,9 +62,9 @@ function App() {
 
     }
   }
-  const handelRemove=(itemId)=>{
+  const handelRemove = (itemId) => {
     let copyCurrentShop = [...currentShop]
-   copyCurrentShop= copyCurrentShop.filter(item=>item.id!==itemId)
+    copyCurrentShop = copyCurrentShop.filter(item => item.id !== itemId)
     setCurrentShop(copyCurrentShop)
 
   }

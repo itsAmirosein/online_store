@@ -22,6 +22,11 @@ function Sidebar({ onClick, showSidebar, productView,hadelCounter,handelRemove})
 
   //   setCount((prevState) => prevState + 1);
   // };
+  const total =()=>{
+    let totalPrice = 0;
+     products.forEach(item=>{totalPrice+=item.counter*Math.floor(item.price / 2)})
+   return totalPrice
+  }
 
 
   return (
@@ -47,7 +52,7 @@ function Sidebar({ onClick, showSidebar, productView,hadelCounter,handelRemove})
             );
           })
         : null}
-      {/* <div>Total : {total}</div> */}
+      <div>Total : {total()}</div>
     </SidebarWrapper>
   );
 }
