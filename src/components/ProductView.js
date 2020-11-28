@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   ProductViewWrapper,
   InfoWrapper,
@@ -10,12 +10,14 @@ import {
 import * as fa from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-function ProductView({ title, price, img, count, special, id,closeSidebar }) {
+function ProductView({ title, price, img, count, special, id, closeSidebar, hadelCounter,handelRemove }) {
   const discountPrice = Math.floor(price / 2);
+  // const [counter,setCounter] = useState(count)
+
   return (
     <ProductViewWrapper>
       <ProductViewRemove>
-        <fa.FaTimes />
+        <fa.FaTimes onClick={()=>handelRemove(id)}/>
       </ProductViewRemove>
       <Link to={`/detail/${id}`}>
         <ProductImg src={img} alt="" onClick={closeSidebar} />
@@ -25,14 +27,14 @@ function ProductView({ title, price, img, count, special, id,closeSidebar }) {
         {!special && <span> {price}$</span>}
         {special && (
           <span>
-            <DiscountPrice> {price}$</DiscountPrice> / {discountPrice}$
+            <DiscountPrice> {count * price}$</DiscountPrice> / {count * discountPrice}$
           </span>
         )}
       </InfoWrapper>
       <CounterWrapper>
-        <fa.FaChevronLeft />
+        <fa.FaChevronLeft onClick={() => hadelCounter('remove',id)} />
         <span>{count}</span>
-        <fa.FaChevronRight />
+        <fa.FaChevronRight onClick={() => hadelCounter('add',id)} />
       </CounterWrapper>
     </ProductViewWrapper>
   );

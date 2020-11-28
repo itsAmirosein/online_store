@@ -3,7 +3,7 @@ import { SidebarWrapper, CloseBtn } from "./StyledComponents";
 import * as fa from "react-icons/fa";
 import ProductView from "./ProductView";
 
-function Sidebar({ onClick, showSidebar, productView, count }) {
+function Sidebar({ onClick, showSidebar, productView,hadelCounter,handelRemove}) {
   const [products, setProducts] = useState(productView);
   
   useEffect(() => {
@@ -39,8 +39,10 @@ function Sidebar({ onClick, showSidebar, productView, count }) {
                 special={product.special}
                 title={product.title}
                 price={product.price}
-                count={count}
+                count={product.counter}
                 closeSidebar={onClick}
+                hadelCounter={hadelCounter}
+                handelRemove={handelRemove}
               />
             );
           })

@@ -8,6 +8,7 @@ export const PRODUCTS = [
     description:
       "Repudiandae in omnis molestiae iure et vitae aliquid. Dolore nisi et quia nobis sit ea dolorem repudiandae. Ut atque veritatis quia dolores ipsa. Ut et dolores aut sapiente delectus culpa excepturi et. Ut aut sed.",
     category: "Music",
+    counter:1,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const PRODUCTS = [
     description:
       "Voluptatem iste dolore molestiae fuga. Qui aut nihil facilis fuga nihil. Amet in sint voluptas iusto itaque.",
     category: "Music",
+    counter:1,
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const PRODUCTS = [
     description:
       "Facilis aut veniam ipsa qui deserunt officiis et qui. Rerum voluptatum qui voluptas. Illo sit in numquam voluptatem minima saepe odit voluptas. Totam enim vitae dignissimos non rerum. Repellendus eos quia ut.",
     category: "Sports",
+    counter:1,
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const PRODUCTS = [
     description:
       "Quod ab et culpa rerum vel repellat occaecati et id. Facere fugit beatae. Magni quos voluptatibus labore ipsum similique sit temporibus.",
     category: "Computers",
+    counter:1,
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const PRODUCTS = [
     description:
       "Ab ab voluptates sed dolor deleniti temporibus impedit omnis. Facere qui saepe. Voluptatibus in omnis ut illo eius modi voluptatem.",
     category: "Garden",
+    counter:1,
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const PRODUCTS = [
     description:
       "Possimus et veritatis temporibus nihil. Labore iusto dolores. Voluptas dicta vel eum iste provident quis ullam et. Nisi omnis inventore quis odit dolore assumenda cum autem. Exercitationem sint aliquam. Doloremque dolores animi cupiditate ut.",
     category: "Industrial",
+    counter:1,
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const PRODUCTS = [
     description:
       "Sed harum saepe quis laborum enim ut et. Nobis nostrum natus ea quisquam temporibus. Distinctio delectus ut omnis ullam amet. Quas maiores minus natus quos.",
     category: "Clothing",
+    counter:1,
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ export const PRODUCTS = [
     description:
       "Porro cupiditate quaerat incidunt sunt natus. Facilis amet quidem placeat voluptatem quas sit id impedit. Sunt ducimus in soluta commodi veritatis voluptatem. Eos quibusdam eaque fugiat sunt.",
     category: "Jewelery",
+    counter:1,
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ export const PRODUCTS = [
     description:
       "Tempora facilis sed dolorum. Optio animi et voluptatum. Consequatur nihil aut saepe quia numquam.",
     category: "Industrial",
+    counter:1,
   },
   {
     id: 10,
@@ -98,6 +107,7 @@ export const PRODUCTS = [
     description:
       "Soluta sequi excepturi autem ipsum illo est. Quia dignissimos ut similique eius quisquam. Et similique voluptatem modi voluptatem et. Dolorem perferendis distinctio culpa consequatur. Animi ratione veritatis quisquam consequatur magnam. Dignissimos numquam quia et optio et aliquid aspernatur.",
     category: "Automotive",
+    counter:1,
   },
   {
     id: 11,
@@ -108,6 +118,7 @@ export const PRODUCTS = [
     description:
       "Nostrum cupiditate ad. Sapiente voluptatem nihil est velit sit voluptas. Vel vero quia.",
     category: "Grocery",
+    counter:1,
   },
   {
     id: 12,
@@ -118,6 +129,7 @@ export const PRODUCTS = [
     description:
       "Beatae provident quo qui iste sed ut culpa sunt repellendus. Non saepe distinctio qui et et. Enim repellendus ut quaerat rerum modi nobis. Velit ex id ad. Saepe omnis nobis qui quis ipsum quas facere soluta. Voluptas omnis optio.",
     category: "Outdoors",
+    counter:1,
   },
   {
     id: 13,
@@ -128,6 +140,7 @@ export const PRODUCTS = [
     description:
       "Quaerat voluptate placeat earum et consequatur et tempore. Numquam rem et. Corrupti enim enim qui rem. Aut error vel sed vero.",
     category: "Music",
+    counter:1,
   },
   {
     id: 14,
@@ -138,6 +151,7 @@ export const PRODUCTS = [
     description:
       "Vitae corporis saepe. Doloribus veniam possimus temporibus magnam fuga quia dolor. Rem nobis alias dolorem sed enim quis excepturi soluta eaque.",
     category: "Tools",
+    counter:1,
   },
   {
     id: 15,
@@ -148,6 +162,7 @@ export const PRODUCTS = [
     description:
       "Dolores suscipit quia. Delectus aspernatur aut omnis dolores ullam eaque ea maxime. Et omnis ullam praesentium non quisquam enim molestias excepturi sed. Provident labore quisquam vitae aut necessitatibus adipisci et quidem. Doloremque ut ipsam.",
     category: "Industrial",
+    counter:1,
   },
   {
     id: 16,
@@ -158,6 +173,7 @@ export const PRODUCTS = [
     description:
       "Deserunt aut consequuntur. Doloribus eos architecto ut dignissimos sed. Eius consectetur repellat dolores et. Sint aut dolore laboriosam blanditiis et corrupti repellat.",
     category: "Clothing",
+    counter:1,
   },
   {
     id: 17,
@@ -168,6 +184,7 @@ export const PRODUCTS = [
     description:
       "Est quam dolorum nihil quaerat qui est dolorum explicabo. Repudiandae nihil placeat autem omnis neque sint. In dignissimos aliquid animi reprehenderit voluptatum aspernatur est ratione dolores. Distinctio non natus at iusto et incidunt.",
     category: "Kids",
+    counter:1,
   },
   {
     id: 18,
@@ -178,6 +195,7 @@ export const PRODUCTS = [
     description:
       "Deserunt exercitationem facere quod. Vel iusto velit voluptas qui rerum mollitia. Quisquam tempore atque. Voluptas placeat autem provident dolores consequatur temporibus itaque occaecati. Ad itaque vel excepturi incidunt esse cum. Numquam cupiditate qui exercitationem nostrum quo autem.",
     category: "Books",
+    counter:1,
   },
   {
     id: 19,
@@ -188,6 +206,7 @@ export const PRODUCTS = [
     description:
       "Similique earum natus et. Officiis adipisci corrupti autem voluptatem quaerat aliquam rerum. Nihil atque qui deleniti aut veritatis saepe rerum. Animi magnam qui voluptatem inventore molestiae hic asperiores.",
     category: "Garden",
+    counter:1,
   },
   {
     id: 20,
@@ -198,6 +217,7 @@ export const PRODUCTS = [
     description:
       "Totam aut minus hic ut qui possimus atque. Est labore et vel fuga nihil est voluptate. Ullam fuga vero dolores.",
     category: "Beauty",
+    counter:1,
   },
   {
     id: 21,
@@ -208,6 +228,7 @@ export const PRODUCTS = [
     description:
       "Nobis perspiciatis assumenda maiores sed id. Non eum vero nobis. Facere non dignissimos. Voluptatem quae voluptatibus doloribus. Vitae modi saepe culpa dolore praesentium ipsam facere quaerat sint. Similique voluptatem eos esse sit sed doloremque eligendi dolores aut.",
     category: "Toys",
+    counter:1,
   },
   {
     id: 22,
@@ -218,6 +239,7 @@ export const PRODUCTS = [
     description:
       "Dolorem suscipit cum error est. Quod et dicta perferendis perferendis est totam cum quis ut. Eos provident id blanditiis quo beatae repellat. Atque qui nihil reprehenderit dolore.",
     category: "Beauty",
+    counter:1,
   },
   {
     id: 23,
@@ -228,6 +250,7 @@ export const PRODUCTS = [
     description:
       "Velit corporis dolorum aut provident omnis voluptate. Quaerat accusamus vel tenetur sint tenetur libero. Reiciendis nobis quae. Omnis assumenda possimus accusantium facilis temporibus saepe maiores. Et vel quam rem neque.",
     category: "Computers",
+    counter:1,
   },
   {
     id: 24,
@@ -238,6 +261,7 @@ export const PRODUCTS = [
     description:
       "Unde consequatur fugit et ut eum beatae. Aspernatur dolor omnis odio est ducimus totam libero. Nihil possimus harum voluptate laudantium ex reiciendis nihil. Asperiores itaque dicta eveniet accusantium soluta. Consequatur quis dolorem eaque ex. Dolores deleniti consequuntur placeat.",
     category: "Kids",
+    counter:1,
   },
   {
     id: 25,
@@ -248,6 +272,7 @@ export const PRODUCTS = [
     description:
       "Quis voluptas earum praesentium eligendi et tempora. Nihil nihil quo accusamus dolor minus. Id voluptatem est nihil tenetur sed officia et. Pariatur saepe animi iure fuga sunt qui. Error magnam numquam nisi eaque nesciunt culpa. Rerum tempora quibusdam.",
     category: "Baby",
+    counter:1,
   },
   {
     id: 26,
@@ -258,6 +283,7 @@ export const PRODUCTS = [
     description:
       "Voluptas qui illo velit. Vero in laboriosam. Porro odio voluptatem sapiente omnis architecto veniam praesentium ipsum sed.",
     category: "Health",
+    counter:1,
   },
   {
     id: 27,
@@ -268,6 +294,7 @@ export const PRODUCTS = [
     description:
       "Sed voluptates consequuntur ea voluptas et unde. Atque id voluptate voluptates ipsa. A voluptatem dicta. Doloremque eligendi quidem dignissimos reiciendis corrupti aut praesentium in. Quos et cumque quia odio qui quis.",
     category: "Music",
+    counter:1,
   },
   {
     id: 28,
@@ -278,6 +305,7 @@ export const PRODUCTS = [
     description:
       "Delectus et velit. Eius tenetur provident voluptas vero animi laboriosam blanditiis. Sed quibusdam eligendi dolor quia enim unde labore. A adipisci ut qui non tempora non. Modi delectus iste incidunt est. Facere et asperiores consequatur pariatur molestiae.",
     category: "Home",
+    counter:1,
   },
   {
     id: 29,
@@ -288,6 +316,7 @@ export const PRODUCTS = [
     description:
       "Porro quis qui eos est itaque ut. Sint ut expedita fugiat. Consequuntur iste dolor non omnis corrupti est.",
     category: "Shoes",
+    counter:1,
   },
   {
     id: 30,
@@ -298,6 +327,7 @@ export const PRODUCTS = [
     description:
       "Quos reprehenderit ut voluptas nulla. Pariatur quia nulla doloribus exercitationem omnis recusandae voluptates. Totam beatae magnam qui et voluptatum ut. Molestias in tempora id. Suscipit quia minima doloribus qui perferendis et animi dolor. Doloribus provident distinctio.",
     category: "Games",
+    counter:1,
   },
   {
     id: 31,
@@ -308,6 +338,7 @@ export const PRODUCTS = [
     description:
       "Iste nesciunt ipsa repellendus perspiciatis iusto. Odio qui aspernatur ullam. Deleniti facere sit impedit nisi accusamus eos enim inventore. Adipisci eos corporis inventore repellendus. Est ipsum molestias corporis ut exercitationem magnam. Quia necessitatibus porro debitis mollitia laborum impedit facilis id deserunt.",
     category: "Baby",
+    counter:1,
   },
   {
     id: 32,
@@ -318,6 +349,7 @@ export const PRODUCTS = [
     description:
       "Voluptatibus nobis aut amet fugiat ut vero illo. Minima totam minima voluptate eligendi. Ut repudiandae sed vitae neque reprehenderit. Sunt consequatur commodi. Eveniet inventore ipsam et quos sed eos quis. Eum animi iure ut possimus in ex.",
     category: "Outdoors",
+    counter:1,
   },
   {
     id: 33,
@@ -328,6 +360,7 @@ export const PRODUCTS = [
     description:
       "Qui hic molestiae laborum tempore aut labore magni. Odit fugiat sunt. Facere eos dolorem atque repellendus eos.",
     category: "Health",
+    counter:1,
   },
   {
     id: 34,
@@ -338,6 +371,7 @@ export const PRODUCTS = [
     description:
       "Molestias repellat magnam quos iure eos et eos velit nam. Et vel optio porro alias est deserunt totam eum. Et voluptatem optio voluptas consequatur harum dolores.",
     category: "Industrial",
+    counter:1,
   },
   {
     id: 35,
@@ -348,6 +382,7 @@ export const PRODUCTS = [
     description:
       "Quia consequatur occaecati suscipit ipsam temporibus vel quas non. Iste fugit hic ut nobis quo enim omnis. Vero inventore soluta id ab eos quia impedit minus. Aut iste repellat voluptatem quo similique porro nesciunt sint et.",
     category: "Baby",
+    counter:1,
   },
   {
     id: 36,
@@ -358,6 +393,7 @@ export const PRODUCTS = [
     description:
       "Adipisci qui est repudiandae et. Omnis consequatur qui dignissimos ea rerum. Aliquam tempore eaque numquam nam nisi ratione. Sapiente architecto rerum quisquam laboriosam earum nostrum sunt. Et earum eum et non quo quis labore eligendi.",
     category: "Outdoors",
+    counter:1,
   },
   {
     id: 37,
@@ -368,6 +404,7 @@ export const PRODUCTS = [
     description:
       "Voluptatem odit provident et. Ab dicta cum quis veniam consequatur repellat. Aut possimus ut recusandae ipsa quis voluptates dolorem quae at. Recusandae ab perferendis vero in et. Qui rem repellat aliquam aperiam.",
     category: "Automotive",
+    counter:1,
   },
   {
     id: 38,
@@ -378,6 +415,7 @@ export const PRODUCTS = [
     description:
       "Ad eos perspiciatis ipsa. Autem nisi itaque dolore necessitatibus. Voluptas molestias alias provident dolorum. Corporis voluptatem labore id eaque.",
     category: "Tools",
+    counter:1,
   },
   {
     id: 39,
@@ -388,6 +426,7 @@ export const PRODUCTS = [
     description:
       "Sunt exercitationem ipsum labore ut aspernatur. Sit et architecto quidem ratione optio. Sint quidem corporis magni. Dolores maxime sit voluptatem quo quis voluptates enim cum quis. Dicta commodi quas. Et totam accusamus eaque.",
     category: "Shoes",
+    counter:1,
   },
   {
     id: 40,
@@ -398,6 +437,7 @@ export const PRODUCTS = [
     description:
       "Quia omnis nam quaerat soluta quod est facere. Dolorum commodi ut placeat corrupti quis cupiditate veritatis eum. Quo ut laborum nemo culpa. Impedit beatae est.",
     category: "Baby",
+    counter:1,
   },
   {
     id: 41,
@@ -408,6 +448,7 @@ export const PRODUCTS = [
     description:
       "Voluptatem sint ea quasi consequatur ipsa sit harum. Deleniti aspernatur aut impedit officia ullam laboriosam et architecto autem. Vero nulla voluptas est culpa. Rerum nulla velit molestias necessitatibus culpa qui.",
     category: "Home",
+    counter:1,
   },
   {
     id: 42,
@@ -418,6 +459,7 @@ export const PRODUCTS = [
     description:
       "Est accusantium vero vel enim. Dicta veritatis velit. Mollitia nemo consequatur. Et neque qui dolorum et expedita qui cupiditate. Rerum molestiae veniam nesciunt. Molestias eligendi ipsa enim occaecati tempore suscipit corporis neque aspernatur.",
     category: "Books",
+    counter:1,
   },
   {
     id: 43,
@@ -428,6 +470,7 @@ export const PRODUCTS = [
     description:
       "Voluptatem et voluptas omnis voluptatem minus. Aspernatur et maxime sunt magnam laborum iste id voluptatum. Quia neque recusandae in sapiente id id autem repellendus officiis. Vitae minima explicabo qui nisi eligendi.",
     category: "Jewelery",
+    counter:1,
   },
   {
     id: 44,
@@ -438,6 +481,7 @@ export const PRODUCTS = [
     description:
       "Aspernatur ut quos itaque tempora. Itaque nulla est. Dolor quis non iste consequatur voluptatum quia.",
     category: "Beauty",
+    counter:1,
   },
   {
     id: 45,
@@ -448,6 +492,7 @@ export const PRODUCTS = [
     description:
       "Dignissimos officiis repellat vel numquam libero dolorum saepe minus. Rerum ullam dicta maiores quos magni corrupti dolorem est qui. Temporibus voluptatem amet ipsam asperiores sint dicta. Ab qui aliquid. Doloremque exercitationem excepturi consequatur beatae.",
     category: "Grocery",
+    counter:1,
   },
   {
     id: 46,
@@ -458,6 +503,7 @@ export const PRODUCTS = [
     description:
       "Vitae voluptatem hic occaecati dolore doloremque occaecati laboriosam adipisci. Repellendus vel suscipit saepe eveniet nisi. Cumque placeat qui perferendis et voluptates qui provident reiciendis.",
     category: "Outdoors",
+    counter:1,
   },
   {
     id: 47,
@@ -468,6 +514,7 @@ export const PRODUCTS = [
     description:
       "Eum deleniti ut odio. Error eius incidunt velit dignissimos aspernatur. Nulla a eum qui tenetur iure ea. Error mollitia dolores omnis. Labore consequuntur magnam rerum et ullam ducimus maxime sunt.",
     category: "Baby",
+    counter:1,
   },
   {
     id: 48,
@@ -478,6 +525,7 @@ export const PRODUCTS = [
     description:
       "In animi qui reiciendis unde eos labore in cupiditate. Reiciendis et eos similique nihil vero. Est reiciendis dolores atque qui quis.",
     category: "Garden",
+    counter:1,
   },
   {
     id: 49,
@@ -488,6 +536,7 @@ export const PRODUCTS = [
     description:
       "Voluptatem aut quis sunt. Soluta blanditiis sint dicta magni in sed laboriosam placeat laborum. Exercitationem fugiat consequatur aut aliquam. Exercitationem a qui provident non. Voluptatem iure impedit maiores ut assumenda. Qui neque ratione maxime.",
     category: "Grocery",
+    counter:1,
   },
   {
     id: 50,
@@ -498,6 +547,7 @@ export const PRODUCTS = [
     description:
       "Et sunt velit illo laudantium explicabo et omnis veniam. Sed voluptates et dolor saepe omnis sed autem aliquid voluptate. Omnis omnis est non voluptatem ullam maxime libero minus eius.",
     category: "Health",
+    counter:1,
   },
   {
     id: 51,
@@ -508,6 +558,7 @@ export const PRODUCTS = [
     description:
       "Perspiciatis omnis quia ipsum neque. Animi blanditiis voluptates. Occaecati sed ut sit quas magni occaecati deleniti enim.",
     category: "Computers",
+    counter:1,
   },
   {
     id: 52,
@@ -518,6 +569,7 @@ export const PRODUCTS = [
     description:
       "Sequi reiciendis minima cumque deserunt quos tempore eveniet ut. Veniam sint impedit aut accusamus quis sit. Culpa non delectus fugit voluptatum dolorum dolorem ex qui. Non praesentium ab quibusdam impedit qui consequatur culpa molestiae vero. Minus deserunt ipsum consequatur quo iure nisi voluptas optio. Dolores id est id et ut.",
     category: "Tools",
+    counter:1,
   },
   {
     id: 53,
@@ -528,6 +580,7 @@ export const PRODUCTS = [
     description:
       "Debitis sit laudantium eum sint. Tempora praesentium sint dignissimos itaque iusto a. Quae autem sequi. Est alias earum aut laboriosam aut et sint.",
     category: "Home",
+    counter:1,
   },
   {
     id: 54,
@@ -538,6 +591,7 @@ export const PRODUCTS = [
     description:
       "Sequi veritatis iusto. Molestiae aliquam maiores voluptatem aperiam fuga. Reprehenderit ipsam ab in necessitatibus. Impedit voluptatem ut. Accusantium eius sequi.",
     category: "Industrial",
+    counter:1,
   },
   {
     id: 55,
@@ -548,6 +602,7 @@ export const PRODUCTS = [
     description:
       "Non recusandae harum voluptatum laborum repudiandae beatae illum atque nostrum. Suscipit enim velit fuga. Vel omnis ad hic velit consequatur. Repellat qui blanditiis unde non minima eligendi qui est.",
     category: "Garden",
+    counter:1,
   },
   {
     id: 56,
@@ -558,6 +613,7 @@ export const PRODUCTS = [
     description:
       "Magni minus neque nemo deserunt et porro amet error. Suscipit consequatur qui. Qui consequatur ab eveniet placeat aut. Nostrum voluptatem adipisci. Accusamus aut nesciunt magnam.",
     category: "Computers",
+    counter:1,
   },
   {
     id: 57,
@@ -568,6 +624,7 @@ export const PRODUCTS = [
     description:
       "Et tenetur qui nulla delectus aliquam sint. Omnis unde odit quisquam assumenda dolorem sit repellendus. Omnis quae molestiae exercitationem. Sit dicta qui. Quae aut voluptatem.",
     category: "Clothing",
+    counter:1,
   },
   {
     id: 58,
@@ -578,6 +635,7 @@ export const PRODUCTS = [
     description:
       "Distinctio et aliquid. Possimus vel quos aut iusto laborum. Minima voluptas nostrum tenetur debitis quidem. Iure quo neque aut consequuntur doloribus atque. Quasi facere perspiciatis inventore officiis.",
     category: "Clothing",
+    counter:1,
   },
   {
     id: 59,
@@ -588,6 +646,7 @@ export const PRODUCTS = [
     description:
       "Iusto quod consequatur odit doloribus est quas. Qui at in iusto modi fugit soluta qui. Ex omnis odit iure quo dolorum occaecati quas. Rerum commodi recusandae quia.",
     category: "Jewelery",
+    counter:1,
   },
   {
     id: 60,
@@ -598,6 +657,7 @@ export const PRODUCTS = [
     description:
       "Necessitatibus esse molestias reiciendis molestiae error dolorem. Assumenda totam doloremque et sequi ut fuga. Sequi omnis sequi.",
     category: "Tools",
+    counter:1,
   },
   {
     id: 61,
@@ -608,6 +668,7 @@ export const PRODUCTS = [
     description:
       "Doloremque facere animi cum occaecati magnam mollitia temporibus. Sint sint error et corporis est dignissimos aut perferendis est. Natus ea ipsam mollitia harum sit qui. Eligendi maxime quod.",
     category: "Kids",
+    counter:1,
   },
   {
     id: 62,
@@ -618,6 +679,7 @@ export const PRODUCTS = [
     description:
       "Saepe eius dolores. Omnis voluptatum fugiat impedit dolorem quis veniam nihil ut. Quae dignissimos unde adipisci sit enim dignissimos iste. Voluptatum repellat porro incidunt quidem sunt dolorum officiis. Iure qui voluptate et.",
     category: "Music",
+    counter:1,
   },
   {
     id: 63,
@@ -628,6 +690,7 @@ export const PRODUCTS = [
     description:
       "Pariatur deserunt architecto. Ex qui qui eius rerum debitis voluptatum similique saepe temporibus. Qui nulla ab voluptatem enim atque dolore doloribus.",
     category: "Baby",
+    counter:1,
   },
   {
     id: 64,
@@ -638,6 +701,7 @@ export const PRODUCTS = [
     description:
       "Voluptas asperiores perspiciatis est omnis eos aut impedit ea nobis. Vitae est aut. Maiores est debitis illum delectus debitis aut id officia. Quia aut delectus dolorum officia sapiente vel eum consequatur.",
     category: "Grocery",
+    counter:1,
   },
   {
     id: 65,
@@ -648,6 +712,7 @@ export const PRODUCTS = [
     description:
       "Adipisci incidunt voluptatum cupiditate repudiandae et unde et. Fugit doloribus soluta quia quasi et. Et quae quis. Praesentium odio necessitatibus placeat tenetur fugit libero et ducimus.",
     category: "Kids",
+    counter:1,
   },
   {
     id: 66,
@@ -658,6 +723,7 @@ export const PRODUCTS = [
     description:
       "Aut in minus quam enim deleniti totam qui. Accusantium reprehenderit ut ut aperiam assumenda recusandae eius aut accusamus. Quo et non. Odit nihil rem. Natus fugit adipisci in temporibus et distinctio aliquam.",
     category: "Baby",
+    counter:1,
   },
   {
     id: 67,
@@ -668,6 +734,7 @@ export const PRODUCTS = [
     description:
       "Odit tempora et voluptatem et deserunt harum esse ea aperiam. Saepe vero quam ullam qui cum maxime. Autem sit distinctio cupiditate ab quaerat corrupti quia quia alias. Repellendus minima distinctio impedit dolorum in enim.",
     category: "Toys",
+    counter:1,
   },
   {
     id: 68,
@@ -678,6 +745,7 @@ export const PRODUCTS = [
     description:
       "Sunt ipsam nihil repellendus quos dignissimos voluptas laborum. Eaque aliquam quos est. Reiciendis asperiores quia. Dolorem nesciunt consectetur quia est ut.",
     category: "Kids",
+    counter:1,
   },
   {
     id: 69,
@@ -688,6 +756,7 @@ export const PRODUCTS = [
     description:
       "Et cum quos quis. Temporibus autem corrupti nostrum. Ipsa et ea itaque blanditiis. Et ut nobis. Expedita perspiciatis impedit error eius quia maxime.",
     category: "Computers",
+    counter:1,
   },
   {
     id: 70,
@@ -698,6 +767,7 @@ export const PRODUCTS = [
     description:
       "Ea voluptas fugiat quo quaerat. Exercitationem commodi quibusdam ipsum non praesentium voluptatem. Fugit est dignissimos fuga iusto culpa quam dicta. Dolores reprehenderit cumque voluptatem explicabo odit animi rerum voluptatem.",
     category: "Clothing",
+    counter:1,
   },
   {
     id: 71,
@@ -708,6 +778,7 @@ export const PRODUCTS = [
     description:
       "Magnam voluptatem eum quam. Id perspiciatis et voluptas nostrum cum tenetur aut. Laboriosam quo ea et qui voluptatem quae enim voluptatem autem. Est exercitationem molestiae et omnis est molestias. Officia harum ea aut sapiente repellat similique at non. Reprehenderit quis at et recusandae.",
     category: "Grocery",
+    counter:1,
   },
   {
     id: 72,
@@ -718,6 +789,7 @@ export const PRODUCTS = [
     description:
       "Voluptatum adipisci facere ipsam id minima blanditiis. Non occaecati sapiente eum in vel. Error quia tempora voluptatem. Perspiciatis sed nihil enim magni inventore temporibus eum et.",
     category: "Beauty",
+    counter:1,
   },
   {
     id: 73,
@@ -728,6 +800,7 @@ export const PRODUCTS = [
     description:
       "Ea eos id in. Ad et vitae cumque. Ducimus minima asperiores non distinctio veritatis dolores ducimus nam in. Suscipit minima quos reiciendis. Voluptatem sint quas aut eum consequuntur. Dolorum voluptate facere.",
     category: "Outdoors",
+    counter:1,
   },
   {
     id: 74,
@@ -738,6 +811,7 @@ export const PRODUCTS = [
     description:
       "Vel quae et laborum error ullam nesciunt. Tenetur quo ut rerum. Voluptas harum qui rerum a neque. Quia molestias et velit facilis omnis. Ipsa eos totam deleniti voluptas occaecati vel est beatae ad.",
     category: "Tools",
+    counter:1,
   },
   {
     id: 75,
@@ -748,6 +822,7 @@ export const PRODUCTS = [
     description:
       "Hic possimus quae saepe libero molestiae. Rerum ipsa sit quam et laboriosam labore dolores. Nostrum in quam facilis omnis reiciendis officiis nihil nam aut.",
     category: "Outdoors",
+    counter:1,
   },
   {
     id: 76,
@@ -758,6 +833,7 @@ export const PRODUCTS = [
     description:
       "Vel sint velit. Nihil quia non nobis est at iusto. Et cumque nemo sunt provident nostrum molestias et. Quae non voluptas et et eos est fugit veritatis.",
     category: "Kids",
+    counter:1,
   },
   {
     id: 77,
@@ -768,6 +844,7 @@ export const PRODUCTS = [
     description:
       "Natus placeat dignissimos dolore accusamus facere est. Praesentium sed dignissimos officia consequatur rerum molestias ab. Est voluptates placeat. Vel officiis cum corrupti culpa recusandae repellendus aspernatur et. Nemo pariatur minus neque sunt expedita aut quo.",
     category: "Health",
+    counter:1,
   },
   {
     id: 78,
@@ -778,6 +855,7 @@ export const PRODUCTS = [
     description:
       "Consequuntur enim quo quos. Sunt sit eveniet. Est dolorum in ab fugit. Quaerat adipisci incidunt commodi iusto dolor ad non.",
     category: "Baby",
+    counter:1,
   },
   {
     id: 79,
@@ -788,6 +866,7 @@ export const PRODUCTS = [
     description:
       "Quo inventore voluptas qui eaque eum quidem. Non dolor reprehenderit labore quae possimus. Eaque et quod minima. Est commodi omnis labore sunt eum vel placeat quam. Amet unde voluptates impedit velit similique sint.",
     category: "Health",
+    counter:1,
   },
   {
     id: 80,
@@ -798,6 +877,7 @@ export const PRODUCTS = [
     description:
       "Aut aspernatur aut velit. Similique dignissimos aut laboriosam. Fugit necessitatibus accusantium quis. Quaerat quod officia autem autem aut officiis. Eum eum qui aspernatur ipsa. Debitis recusandae nam vel aspernatur.",
     category: "Toys",
+    counter:1,
   },
   {
     id: 81,
@@ -808,6 +888,7 @@ export const PRODUCTS = [
     description:
       "Et et ipsam eum accusamus. Et consequuntur laudantium nobis omnis fugit architecto quaerat ad. Doloremque tempora rerum rem rem eveniet. Velit quas id perferendis tempora vero maiores ipsa quisquam.",
     category: "Beauty",
+    counter:1,
   },
   {
     id: 82,
@@ -818,6 +899,7 @@ export const PRODUCTS = [
     description:
       "Molestiae vitae molestias eligendi consequatur tenetur autem. Eligendi est et nihil. Voluptate tempora aliquam quia. Qui aspernatur in. Possimus deserunt reprehenderit consequatur sint soluta sed quos eaque eius. Vel qui reprehenderit perferendis aut.",
     category: "Tools",
+    counter:1,
   },
   {
     id: 83,
@@ -828,6 +910,7 @@ export const PRODUCTS = [
     description:
       "Officiis voluptatem officiis molestias eius est officia reprehenderit autem quasi. Totam et non enim. Reprehenderit et dolor et porro.",
     category: "Games",
+    counter:1,
   },
   {
     id: 84,
@@ -838,6 +921,7 @@ export const PRODUCTS = [
     description:
       "Sint qui repudiandae est quam non assumenda qui incidunt. Sint exercitationem expedita qui provident velit est. Nam laudantium consequatur voluptatibus.",
     category: "Home",
+    counter:1,
   },
   {
     id: 85,
@@ -848,6 +932,7 @@ export const PRODUCTS = [
     description:
       "Maxime corrupti omnis commodi et in culpa ut rerum. Sint illo eos optio et explicabo. Expedita autem voluptatibus dolores beatae.",
     category: "Grocery",
+    counter:1,
   },
   {
     id: 86,
@@ -858,6 +943,7 @@ export const PRODUCTS = [
     description:
       "Repellendus pariatur atque. Eum voluptas quis id atque dicta ullam minus. Et eos adipisci at exercitationem cumque qui impedit voluptas. Aut aut et nihil ad sed amet rerum non. Est sed quisquam eum in et in quo. Non fuga quo labore numquam.",
     category: "Clothing",
+    counter:1,
   },
   {
     id: 87,
@@ -868,6 +954,7 @@ export const PRODUCTS = [
     description:
       "Facilis fugit sit. Illo qui in maxime. Delectus laboriosam molestiae voluptatem ea qui mollitia. Eligendi sunt eligendi qui vitae fuga ab ea delectus. Cum sed autem eligendi.",
     category: "Beauty",
+    counter:1,
   },
   {
     id: 88,
@@ -878,6 +965,7 @@ export const PRODUCTS = [
     description:
       "Aliquam et molestiae qui. Expedita aliquam ipsa quaerat quaerat aut est veritatis sint. Quisquam voluptatibus soluta sit quia consequatur quia. Rerum ut et.",
     category: "Clothing",
+    counter:1,
   },
   {
     id: 89,
@@ -888,6 +976,7 @@ export const PRODUCTS = [
     description:
       "At qui nostrum temporibus aperiam consequatur recusandae. Fugiat natus est consequatur. Placeat ex nam architecto porro et molestiae iusto eos. Omnis dolores tempore sit.",
     category: "Jewelery",
+    counter:1,
   },
   {
     id: 90,
@@ -898,6 +987,7 @@ export const PRODUCTS = [
     description:
       "Error veritatis numquam possimus ut praesentium enim qui provident suscipit. Ut quidem aut dicta rerum. Iste quidem rem consequatur architecto ipsam sint molestias expedita tenetur. Qui similique aliquid. At atque iste illum est accusantium maxime minus perferendis similique.",
     category: "Industrial",
+    counter:1,
   },
   {
     id: 91,
@@ -908,6 +998,7 @@ export const PRODUCTS = [
     description:
       "Earum doloribus cupiditate fugiat qui ut earum. Non quam minus adipisci officia unde rem ut. Et perspiciatis autem nihil aut numquam sunt. Nihil quia ut consequatur voluptatum laborum ipsa sint tenetur. Porro quia earum sed qui id quos facilis magnam.",
     category: "Books",
+    counter:1,
   },
   {
     id: 92,
@@ -918,6 +1009,7 @@ export const PRODUCTS = [
     description:
       "Natus ea aliquid. Qui perferendis numquam cupiditate omnis accusantium officia. Totam distinctio sunt natus exercitationem rem possimus id.",
     category: "Industrial",
+    counter:1,
   },
   {
     id: 93,
@@ -928,6 +1020,7 @@ export const PRODUCTS = [
     description:
       "Dignissimos et ut aut optio labore at laborum nam. Dolores ducimus possimus et minus. Eius sint aspernatur dolorum sit libero ea omnis nulla.",
     category: "Beauty",
+    counter:1,
   },
   {
     id: 94,
@@ -938,6 +1031,7 @@ export const PRODUCTS = [
     description:
       "Vitae nam qui. Accusantium ea dolore assumenda est vitae animi expedita voluptatum rerum. Dignissimos cupiditate officiis sit ut a sequi ad voluptatem consequatur. Et soluta veniam. Eum dolorem magni aliquid incidunt unde labore autem mollitia culpa.",
     category: "Games",
+    counter:1,
   },
   {
     id: 95,
@@ -948,6 +1042,7 @@ export const PRODUCTS = [
     description:
       "Quibusdam incidunt autem dolor ullam labore quis. Laborum occaecati animi ex error. Eos molestias perspiciatis ut perferendis quod minus cumque veniam.",
     category: "Shoes",
+    counter:1,
   },
   {
     id: 96,
@@ -958,6 +1053,7 @@ export const PRODUCTS = [
     description:
       "Quisquam eligendi natus officia ut doloremque. Qui excepturi inventore vel incidunt dolor earum est rerum. Minus quas commodi eius consequatur. Nulla vel vitae eius velit sint sit recusandae nisi.",
     category: "Clothing",
+    counter:1,
   },
   {
     id: 97,
@@ -968,6 +1064,7 @@ export const PRODUCTS = [
     description:
       "Temporibus sit sed. Aut quidem quos mollitia. At omnis odit porro velit voluptatem quasi at. Possimus sit dolorem. Id mollitia iste error ut ullam omnis omnis officia. Placeat necessitatibus accusantium voluptatem at voluptas vel sit quia.",
     category: "Tools",
+    counter:1,
   },
   {
     id: 98,
@@ -978,6 +1075,7 @@ export const PRODUCTS = [
     description:
       "Explicabo repellat commodi ipsam est magnam nihil repudiandae dolor quia. Ea eum ut consequuntur sapiente eveniet voluptates eaque dolor. Quo cupiditate exercitationem. Dignissimos maxime quas veniam laborum ea sed.",
     category: "Industrial",
+    counter:1,
   },
   {
     id: 99,
@@ -988,5 +1086,6 @@ export const PRODUCTS = [
     description:
       "Nihil quo quis doloribus velit sunt culpa enim. Itaque qui facilis incidunt maxime et voluptas fugiat. Aut provident molestias aperiam doloremque quis iste possimus perferendis sed.",
     category: "Industrial",
+    counter:1,
   },
 ];
